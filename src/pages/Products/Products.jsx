@@ -47,6 +47,7 @@ export default function Products() {
         <ul className={styles.productList}>
           {produtos.map(produto => (
             <li key={produto.id} className={styles.productItem}>
+                <img src={produto.thumbnail} alt={produto.title} className={styles.productImage} />
                 <h2>{produto.title}</h2>
                 <p>{produto.description}</p>
                 <p>Preço: ${produto.price}</p>

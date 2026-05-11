@@ -8,13 +8,12 @@ function Home() {
       <h1>Bem vindo ao E-Shop</h1>
       <p>Sua loja de comércio on-line!</p>
     </div>
-    <div>
+    <div  className={styles.buttonGroup}>
         <button>
         <Link to="/products">Ver Produtos</Link>
         </button>
     </div>
     </>
-    
   );
 }
 

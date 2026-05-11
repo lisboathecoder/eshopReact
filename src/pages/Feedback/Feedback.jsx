@@ -1,4 +1,4 @@
-import styles from "./Extra.module.css"
+import styles from "./Feedback.module.css"
 import { useState, useEffect } from "react";
 
 
@@ -34,6 +34,8 @@ export default function Feedback() {
                         <li key={feedback.id} className={styles.feedbackItem}>
                             <h2>{feedback.name}</h2>
                             <p>{feedback.body}</p>
+                            <p>----------------------------------------</p>
+                            <h5>Email: {feedback.email}</h5>
                         </li>
                     ))}
                 </ul>

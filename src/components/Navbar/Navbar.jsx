@@ -4,13 +4,13 @@ import styles from './Navbar.module.css';
 function Navbar() {
   return (
     <nav className={styles.navbar}>
-      <div className={styles.logo}>LOGO</div>
+      <div className={styles.logo}>E-SHOP</div>
       <ul className={styles.links}>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/sobre">Sobre</Link></li>
-        <li><Link to="/servicos">Serviços</Link></li>
-        <li><Link to="/contato">Contato</Link></li>
-        <li><Link to="/extra">Blog</Link></li>
+        <li><Link to="/products">Produtos</Link></li>
+        <li><Link to="/contact">Contato</Link></li>
+        <li><Link to="/feedback">Feedback</Link></li>
+        <li><Link to="/about">Sobre</Link></li>
       </ul>
     </nav>
   );

@@ -1,0 +1,31 @@
+.about {
+	max-width: var(--max-width);
+	margin: 0 auto;
+	padding: var(--page-padding);
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.about h1 {
+	margin-top: 1rem;
+}
+
+.about + div {
+	max-width: var(--max-width);
+	margin: 0 auto;
+	padding: 0 2rem 3rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.about + div + div {
+	max-width: var(--max-width);
+	margin: 0 auto 4rem;
+	padding: 0 2rem;
+}
+
+.about + div + div button {
+	margin-top: 1.5rem;
+}

@@ -1,0 +1,16 @@
+.contact {
+	max-width: var(--max-width);
+	margin: 0 auto;
+	padding: var(--page-padding);
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.contactList {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	font-size: 0.95rem;
+	letter-spacing: 0.02em;
+}

@@ -1,0 +1,16 @@
+.notFound {
+	max-width: var(--max-width);
+	margin: 0 auto;
+	padding: var(--page-padding);
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.notFound h1 {
+	font-size: clamp(2rem, 3vw, 3rem);
+}
+
+.notFound button {
+	align-self: flex-start;
+}

@@ -2,29 +2,34 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color: #282c34;
-  color: white;
+  padding: 1.5rem 4vw;
+  background-color: var(--color-white);
+  color: var(--color-ink);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .logo {
   font-size: 1.5rem;
-  font-weight: bold;
-  color: #61dafb;
+  font-weight: 600;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  font-family: "Playfair Display", "Times New Roman", serif;
+  color: var(--color-ink);
 }
 
 .links {
   display: flex;
-  list-style: none;
-  gap: 20px;
+  gap: 2rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 .links a {
-  color: white;
-  text-decoration: none;
-  transition: color 0.3s;
+  color: var(--color-ink);
+  transition: color 0.2s ease;
 }
 
 .links a:hover {
-  color: #61dafb;
+  color: var(--color-muted);
 }

@@ -1,0 +1,25 @@
+.home {
+	max-width: var(--max-width);
+	margin: 0 auto;
+	padding: var(--page-padding);
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+}
+
+.home h1 {
+	max-width: 22ch;
+}
+
+.home p {
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+	color: var(--color-ink);
+	font-size: 0.9rem;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
